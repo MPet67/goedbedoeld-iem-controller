@@ -1,0 +1,29 @@
+# Arduino / ESP32 build output
+build/
+**/build/
+*.elf
+*.map
+*.hex
+*.bin
+*.uf2
+*.ota
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+# Never commit credentials or local settings
+.env
+.env.*
+secrets.h
+credentials.h
+wifi_credentials.h
+# Keep checked-in source .ino files and documentation
+
+# Local simulator credentials (not tracked)
+**/local_secrets.h
+**/local_secrets.hpp
+*.pem
+*.key
